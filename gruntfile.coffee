@@ -17,7 +17,7 @@ module.exports = (grunt) ->
       app:
         files:
           'public/all.js': [
-            'app/**/*.coffee'
+            'app/initialize.coffee'
           ]
         options:
           transform: ['coffeeify']
@@ -25,7 +25,7 @@ module.exports = (grunt) ->
       test:
         files:
           'test/assets/test.js': [
-            'test/**/*.coffee'
+            'test/initialize.coffee'
           ]
         options:
 
